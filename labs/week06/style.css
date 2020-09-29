@@ -1,0 +1,39 @@
+main{
+  width: 75%;
+  margin: auto;
+  border: 1px solid red;
+  padding: 1em;
+}
+section{
+  margin: 1em auto;
+}
+article.card{
+  display: inline-block;
+  padding: 1em;
+  width: 30%;
+}
+article.card img{
+  width: 100%;
+}
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: red;
+}
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  color:grey;
+}
+
+/* 
+  Quick Lookup Guide
+- Change font color     => color: red;
+- Change font size      => font-size: 15px;
+- Text align            => text-align: center
+- Background color      => background-color: blue
+- Select table header row as table>thead>tr { your properties go here }
+*/
