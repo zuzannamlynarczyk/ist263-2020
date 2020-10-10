@@ -37,11 +37,15 @@ The comments should detail
   margin: 0 auto;
   width: 1200px;
 }
+- This class stylizes containers to horizotally center and set the width to 1200px. The auto margin command splits the remaing space between left and right margins.
+- This container would be good for organizing multiple elements along side each other.
 
 .row {
   display: flex;
   flex-flow: row wrap;
 }
+- The flex value specifies a flexbox layout for any element in the class "row" and "flex-flow: row wrap" sets both the direction of the content (rows) and flex-wrap property that allows the content to wrap under itself in another row.
+- This styling would be good to use when organizing many similar images or pieces of content in a uniform way.
 
 .col {
   display: flex;
